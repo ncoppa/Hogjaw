@@ -1,4 +1,9 @@
 Hogjaw::Application.routes.draw do
+
+  get "tour_calendar", :to => "static#tour_calendar", :as => :tour_calendar
+
+  root :to => "static#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
