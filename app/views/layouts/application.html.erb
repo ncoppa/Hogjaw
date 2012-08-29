@@ -15,6 +15,9 @@
       <%= render :partial => 'layouts/topnav' %>
       <%= content_tag :h1, yield(:title) if show_title? %>
       <%= yield %>
-    </div>
+		<%= render :partial => 'layouts/footer' %>
+	</div>
+    
+	
   </body>
 </html>
