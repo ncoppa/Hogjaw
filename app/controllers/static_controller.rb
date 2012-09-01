@@ -15,6 +15,7 @@ class StaticController < ApplicationController
   end
 
   def tour_calendar
+    @tourdates = Concert.all
   end
   
   def contact

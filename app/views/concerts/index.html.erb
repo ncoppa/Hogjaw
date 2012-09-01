@@ -1,0 +1,21 @@
+<% title "Concerts" %>
+
+<table>
+  <tr>
+    <th>Show Date</th>
+    <th>Location</th>
+    <th>Description</th>
+  </tr>
+  <% for concert in @concerts %>
+    <tr>
+      <td><%= concert.show_date %></td>
+      <td><%= concert.location %></td>
+      <td><%= concert.description %></td>
+      <td><%= link_to "Show", concert %></td>
+      <td><%= link_to "Edit", edit_concert_path(concert) %></td>
+      <td><%= link_to "Destroy", concert, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Concert", new_concert_path %></p>

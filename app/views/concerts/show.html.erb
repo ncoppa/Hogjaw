@@ -1,0 +1,20 @@
+<% title "Concert" %>
+
+<p>
+  <strong>Show Date:</strong>
+  <%= @concert.show_date %>
+</p>
+<p>
+  <strong>Location:</strong>
+  <%= @concert.location %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @concert.description %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_concert_path(@concert) %> |
+  <%= link_to "Destroy", @concert, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", concerts_path %>
+</p>

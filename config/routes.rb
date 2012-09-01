@@ -1,5 +1,7 @@
 Hogjaw::Application.routes.draw do
 
+  resources :concerts
+
   get "tour_calendar", :to => "static#tour_calendar", :as => :tour_calendar
   get "contact", :to => "static#contact", :as => :contact
 
