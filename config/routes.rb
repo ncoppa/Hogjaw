@@ -1,6 +1,7 @@
 Hogjaw::Application.routes.draw do
 
   get "tour_calendar", :to => "static#tour_calendar", :as => :tour_calendar
+  get "contact", :to => "static#contact", :as => :contact
 
   root :to => "static#index"
 
