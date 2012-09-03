@@ -13,9 +13,14 @@
  */
 
 body {
-  background-color: #4B7399;
-  font-family: Verdana, Helvetica, Arial;
-  font-size: 14px;
+  	padding: 0;
+	margin: 0;
+	background: #5e4641 url(http://www.hogjawmusic.com/images/main-background.jpg) no-repeat center top;
+	width: 100%;
+	display: table;
+	overflow-x: hidden;
+  	font-family: Verdana, Helvetica, Arial;
+  	font-size: 14px;
 }
 
 a img {
@@ -38,7 +43,12 @@ a {
   background-color: #FFF;
   padding: 20px 40px;
   border: solid 1px black;
-  margin-top: 20px;
+  margin-top: 120px;
+}
+
+#tour_description {
+	font-weight:bold;
+	font-size: 16px;
 }
 
 #flash_notice, #flash_error, #flash_alert {

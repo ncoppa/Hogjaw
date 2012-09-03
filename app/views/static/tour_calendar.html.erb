@@ -3,7 +3,11 @@
 
 <% @tourdates.each do |tour| %>
 
-	<%= tour.description %> 
+
+	<div id="tour_description"> <%= tour.description %> </div>
+	<div> <%= tour.show_date %> </div>
+ 	<div> <%= tour.location %> </div><br>
+
 	
 
 <% end %>

@@ -1,17 +1,14 @@
 Hogjaw::Application.routes.draw do
-
+  
   resources :concerts
 
   get "tour_calendar", :to => "static#tour_calendar", :as => :tour_calendar
   get "contact", :to => "static#contact", :as => :contact
-<<<<<<< HEAD
-=======
   get "hogjaw_press", :to => "static#hogjaw_press", :as => :hogjaw_press
   get "our_music", :to => "static#our_music", :as => :our_music
   get "history", :to => "static#history", :as => :history
   get "photos", :to => "static#photos", :as => :photos
   get "merchandise", :to => "static#merchandise", :as => :merchandise
->>>>>>> cleanup
 
   root :to => "static#index"
 
