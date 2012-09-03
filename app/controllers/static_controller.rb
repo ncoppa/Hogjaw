@@ -8,7 +8,7 @@ class StaticController < ApplicationController
   def history
   end
   
-  def photo
+  def photos
   end
   
   def merchandise
@@ -21,6 +21,6 @@ class StaticController < ApplicationController
   def contact
   end
   
-  def press
+  def hogjaw_press
   end
 end
