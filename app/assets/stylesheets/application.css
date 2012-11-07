@@ -46,6 +46,22 @@ a {
   margin-top: 120px;
 }
 
+#Home_wrapper{
+  width:100%;
+  border: solid 1px black;
+}
+
+#Home_left_column{
+  width: 60%;
+  padding:0px 10px 0px 0px;
+  float:left;
+}
+
+#Home_right_column{
+	width:40%;
+	float:right;
+}
+
 #tour_description {
 	font-weight:bold;
 	font-size: 16px;
