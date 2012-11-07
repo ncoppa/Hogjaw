@@ -1,2 +1,10 @@
 <% title('Hogjaw', false) %>
 <h1>Welcome to the new Hogjaw website</h1>
+
+<% @hogjaw_news.each do |post| %>
+
+<div> <%= post.date %> </div>
+<div> <%= post.title %> </div>
+<div> <%= post.content %> <div>
+
+<% end %>

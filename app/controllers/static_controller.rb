@@ -1,5 +1,6 @@
 class StaticController < ApplicationController
   def index
+    @hogjaw_news = NewsPost.all
   end
   
   def our_music
